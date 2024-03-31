@@ -1,0 +1,24 @@
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\bin\Release\Employee Management System.exe.config
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\bin\Release\Employee Management System.exe
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\bin\Release\Employee Management System.pdb
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee Management System.csproj.AssemblyReference.cache
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.AdminDashbord.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.CreateEmployee.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.CreateUserAccount.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.emplNewProfileCreate.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.EmployeeDashbord_form.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.EmployeeUpadateDetails.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.Leave_form.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.Login_form.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.ManagerDashbord.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.Notification_form.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.Notification_View.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.payroll.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.Properties.Resources.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.ResetPassword_form.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.UserDashbord.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee_Management_System.UserDetails.resources
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee Management System.csproj.GenerateResource.cache
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee Management System.csproj.CoreCompileInputs.cache
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee Management System.exe
+C:\Users\Thilina Wibushitha\OneDrive\Desktop\EMSAPP\Employee Management System\Employee Management System\obj\Release\Employee Management System.pdb

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F68FC4C-A1EA-4F44-8445-F71EB25A0672}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Employee_Management_System</RootNamespace>
+    <AssemblyName>Employee Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="AdminDashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashbord.Designer.cs">
+      <DependentUpon>AdminDashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendence_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendence_form.Designer.cs">
+      <DependentUpon>Attendence_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateEmployee.Designer.cs">
+      <DependentUpon>CreateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateUserAccount.Designer.cs">
+      <DependentUpon>CreateUserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emplNewProfileCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emplNewProfileCreate.Designer.cs">
+      <DependentUpon>emplNewProfileCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeDashbord_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDashbord_form.Designer.cs">
+      <DependentUpon>EmployeeDashbord_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeUpadateDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeUpadateDetails.Designer.cs">
+      <DependentUpon>EmployeeUpadateDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leave_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave_form.Designer.cs">
+      <DependentUpon>Leave_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leave.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_form.Designer.cs">
+      <DependentUpon>Login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="ManagerDashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerDashbord.Designer.cs">
+      <DependentUpon>ManagerDashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.cs" />
+    <Compile Include="Notification_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification_form.Designer.cs">
+      <DependentUpon>Notification_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notification_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification_View.Designer.cs">
+      <DependentUpon>Notification_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payroll.Designer.cs">
+      <DependentUpon>payroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResetPassword_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPassword_form.Designer.cs">
+      <DependentUpon>ResetPassword_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDashbord_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDashbord_form.Designer.cs">
+      <DependentUpon>UserDashbord_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDetails.Designer.cs">
+      <DependentUpon>UserDetails.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminDashbord.resx">
+      <DependentUpon>AdminDashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendence_form.resx">
+      <DependentUpon>Attendence_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateEmployee.resx">
+      <DependentUpon>CreateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUserAccount.resx">
+      <DependentUpon>CreateUserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emplNewProfileCreate.resx">
+      <DependentUpon>emplNewProfileCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDashbord_form.resx">
+      <DependentUpon>EmployeeDashbord_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeUpadateDetails.resx">
+      <DependentUpon>EmployeeUpadateDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave_form.resx">
+      <DependentUpon>Leave_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_form.resx">
+      <DependentUpon>Login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerDashbord.resx">
+      <DependentUpon>ManagerDashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification_form.resx">
+      <DependentUpon>Notification_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification_View.resx">
+      <DependentUpon>Notification_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payroll.resx">
+      <DependentUpon>payroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResetPassword_form.resx">
+      <DependentUpon>ResetPassword_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDashbord_form.resx">
+      <DependentUpon>UserDashbord_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDetails.resx">
+      <DependentUpon>UserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_contact-person-red-icon_8506404.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock-2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leave-5-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
