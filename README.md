@@ -38,5 +38,5 @@ If you have any feedback, please reach out to us at thilina.wibushitha.info@gmai
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS, C#, MS SQL, Python
+C#, MS SQL, Python
 
